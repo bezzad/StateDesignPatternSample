@@ -1,7 +1,4 @@
-﻿using Servicialsoy.Core.Domain.Enums;
-using Servicialsoy.Core.Services;
-
-namespace TestState.States
+﻿namespace TestState.States
 {
     public class ContractStateWaiting : ContractState
     {

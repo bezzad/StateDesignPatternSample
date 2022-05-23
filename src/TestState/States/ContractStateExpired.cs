@@ -1,6 +1,4 @@
-﻿using Servicialsoy.Core.Services;
-
-namespace TestState.States
+﻿namespace TestState.States
 {
     public class ContractStateExpired : ContractState
     {

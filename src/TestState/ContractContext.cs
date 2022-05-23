@@ -1,7 +1,6 @@
-﻿using Servicialsoy.Core.Domain.Entities;
-using TestState.States;
+﻿using TestState.States;
 
-namespace Servicialsoy.Core.Services
+namespace TestState
 {
     public class ContractContext
     {

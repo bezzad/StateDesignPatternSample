@@ -1,5 +1,4 @@
-﻿using Servicialsoy.Core.Domain.Entities;
-using Servicialsoy.Core.Services;
+﻿using TestState;
 
 Console.WriteLine("Welcome Test Contract States \n");
 

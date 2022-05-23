@@ -1,6 +1,4 @@
-﻿using Servicialsoy.Core.Domain.Enums;
-
-namespace Servicialsoy.Core.Domain.Entities
+﻿namespace TestState
 {
     public partial class Contract
     {

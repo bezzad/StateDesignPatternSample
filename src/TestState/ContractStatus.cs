@@ -1,4 +1,4 @@
-﻿namespace Servicialsoy.Core.Domain.Enums
+﻿namespace TestState
 {
     public enum ContractStatus
     {
