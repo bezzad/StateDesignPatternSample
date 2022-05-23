@@ -27,9 +27,8 @@
                 ContractStatus.Draft when this is not ContractStateDraft => new ContractStateDraft(this),
                 ContractStatus.Waiting when this is not ContractStateWaiting => new ContractStateWaiting(this),
                 ContractStatus.Accepted when this is not ContractStateAccepted => new ContractStateAccepted(this),
-                ContractStatus.Aborted when this is not ContractStateCancelled => new ContractStateCancelled(this),
-                ContractStatus.Cancelled when this is not ContractStateCancelled => new ContractStateCancelled(this),
-                ContractStatus.Rejected when this is not ContractStateCancelled => new ContractStateCancelled(this),
+                ContractStatus.Aborted or ContractStatus.Cancelled or ContractStatus.Rejected
+                    when this is not ContractStateCancelled => new ContractStateCancelled(this),
                 ContractStatus.Expired when this is not ContractStateExpired => new ContractStateExpired(this),
                 ContractStatus.InProgress when this is not ContractStateInProgress => new ContractStateInProgress(this),
                 ContractStatus.Completed when this is not ContractStateCompleted => new ContractStateCompleted(this),
